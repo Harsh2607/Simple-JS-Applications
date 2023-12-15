@@ -1,0 +1,63 @@
+body
+{
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container
+{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    background-color:beige;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 2px;
+}
+
+label
+{
+    display: block;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.generate-password
+{
+    align-items: center;
+}
+
+#password
+{
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+
+#generate-btn
+{
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#generate-btn:hover
+{
+    background-color: darkolivegreen;
+}
+
