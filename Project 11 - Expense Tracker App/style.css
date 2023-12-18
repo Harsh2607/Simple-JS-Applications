@@ -1,0 +1,100 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+.mainContainer
+{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: antiquewhite;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1
+{
+    font-size: 24px;
+    color: #333;
+}
+
+#add-expense-btn
+{
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    counter-reset: white;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#add-expense-btn:hover
+{
+    background-color: #0056b3;
+}
+
+.totalExpense
+{
+    text-align: right;
+    font-weight: bold;
+}
+
+.totalExpense h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.expense-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-item p {
+    margin: 0;
+    flex: 1;
+    overflow-wrap: break-word;
+    max-width: calc(100% - 300px);
+}
+
+.edit-btn,
+.remove-btn {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 18px;
+    color: #007bff;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.remove-btn {
+    color: #dc3545;
+}
+
+.edit-btn i,
+.remove-btn i {
+    font-size: inherit;
+}
