@@ -16,6 +16,27 @@ This repository contains a collection of simple applications made using HTML, CS
 ### 4 - Vowel Checker
 **Description:** A simple tool to count the number of vowels in a given text using JavaScript.
 
+### 5 - Age Calculator
+**Description:** An application to calculate a person's age based on the entered birthdate using JavaScript.
+
+### 6 - Tip Calculator
+**Description:** A simple tool to calculate tips based on the bill amount and tip percentage using JavaScript.
+
+### 7 - Simple Dynamic ToDo App
+**Description:** A basic dynamic To-Do application developed using HTML, CSS, and JavaScript for managing tasks.
+
+### 8 - Digital Clock App
+**Description:** A real-time digital clock implemented with JavaScript showing the current time.
+
+### 9 - Expense Tracker App
+**Description:** An application to track expenses and manage budgets using HTML, CSS, and JavaScript.
+
+### 10 - PopUp App
+**Description:** A basic pop-up implementation using HTML, CSS, and JavaScript for user interaction.
+
+### 11 - ASCII and Unicode Char Detector
+**Description:** An application to detect and display ASCII and Unicode characters using JavaScript.
+
 ## Future Updates
 I am actively working on additional such simple projects and plan to add them to this repository soon. Stay tuned for more beginner-friendly applications!
 
